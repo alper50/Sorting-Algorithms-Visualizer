@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="app/components/style.css" rel="stylesheet"/>
+    
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <section id="datasection">
+    </section>
+    <section id="bottomnavbar">
+        <button  class="btn1" id="Button1">Yeniden Sırala</button>  
+        <input id="rangeinput" type="range"  min=10 max=120 step=1 value=60>
+        <input id="speed" type="range"  min=1 max=5 step=1 value=4>
+        <div class="buttons">
+            <button onclick="bubble()">Bubble Sort</button>
+            <button onclick="selection">Selection Sort</button>
+            <button onclick="instertion">Insertion Sort</button>
+            <button onclick="merge">Merge Sort</button>
+            <button onclick="quick">Quick Sort</button>
+            <button onclick="heap">Heap Sort</button>
+        </div>
+    </section>
+    <script src="app/components/button.js"></script>  
+    <script src="app/components/visualize.js"></script>  
+    <script src="app/algorithms/bubblesort.js"></script>  
+</body>
+</html>
