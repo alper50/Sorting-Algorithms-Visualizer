@@ -18,7 +18,7 @@ function generate_array(){
         bars[i] = document.createElement("div");
         barsection.appendChild(bars[i]);
         marginsize=0.1;
-        bars[i].style=" margin:0% " + marginsize + "%; background-color:blue; width:" + (100/array_size-(2*marginsize)) + "%; height:" + (bar_size[i]) + "%;";
+        bars[i].style=" margin:0% " + marginsize + "%; background-color:rgb(221, 144, 28); width:" + (100/array_size-(2*marginsize)) + "%; height:" + (bar_size[i]) + "%;";
     }
 }
 
