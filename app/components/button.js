@@ -14,11 +14,11 @@ function generate_array(){
     barsection.innerHTML = "";
 
     for(i = 0;i<array_size;i++){
-        bar_size[i] = Math.floor(Math.random() * 0.70*(rangeinput.max - rangeinput.min) ) + 10;
+        bar_size[i] = Math.floor(Math.random() * 0.70*(rangeinput.max - rangeinput.min) ) + 5;
         bars[i] = document.createElement("div");
         barsection.appendChild(bars[i]);
         marginsize=0.1;
-        bars[i].style=" margin:0% " + marginsize + "%; background-color:rgb(221, 144, 28); width:" + (100/array_size-(2*marginsize)) + "%; height:" + (bar_size[i]) + "%;";
+        bars[i].style=" margin:0% " + marginsize + "%; background-color:rgb(221, 144, 28); width:" + (100/array_size-(2*marginsize)) + "%; height:" + (bar_size[i]) + "%;" + "border-radius: 20px;";
     }
 }
 

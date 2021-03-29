@@ -2,7 +2,6 @@
 
 function bubble(){
     c_delay =0;
-    console.log("asas");
     for(i=0;i<array_size - 1;i++){
         for(j=0;j<array_size -i -1;j++){
             updatediv(bars[j],bar_size[j],"yellow");

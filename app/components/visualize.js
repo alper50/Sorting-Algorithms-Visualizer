@@ -27,6 +27,6 @@ var c_delay=0;
 
 function updatediv(cont,height,color){
     window.setTimeout(function(){
-        cont.style=" margin:0% " + marginsize + "%; width:" + (100/array_size-(2*marginsize)) + "%; height:" + height + "%; background-color:" + color + ";";
+        cont.style=" margin:0% " + marginsize + "%; width:" + (100/array_size-(2*marginsize)) + "%; height:" + height + "%; background-color:" + color + ";" +"border-radius: 20px;";
     },c_delay+=delay_time);
 }
