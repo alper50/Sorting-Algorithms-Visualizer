@@ -12,7 +12,7 @@ function insertion() {
                 updatediv(bars[j],bar_size[j],"red");
                 updatediv(bars[j+1],bar_size[j+1],"red");
 
-                updatediv(bars[j],bar_size[j],"rgb(221, 144, 28)");
+                updatediv(bars[j],bar_size[j],"yellow");
                 j--;
                 for(var t=0;t<i;t++)
                 {
